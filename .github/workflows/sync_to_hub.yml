@@ -17,9 +17,10 @@ jobs:
           lfs: true
       
       - name: Push to Hub
-        uses: nateraw/huggingface-sync-action@v1
-        with:
-          github_repo_id: hyshot/flask-tensorflow-project
-          huggingface_repo_id: hyshot/senior-lung-proj
-          repo_type: space
-          token: ${{ secrets.HF_TOKEN }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git remote add space https://hyshot:$HF_TOKEN@huggingface.co/spaces/hyshot/senior-lung-proj
+          git push space main --force
