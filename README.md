@@ -1,3 +1,12 @@
+---
+title: Senior Lung Project
+emoji: 🫁
+colorFrom: blue
+colorTo: red
+sdk: docker
+pinned: false
+---
+
 # senior-proj-atilim
 Bitirme Projesi Makine Öğrenme
 
