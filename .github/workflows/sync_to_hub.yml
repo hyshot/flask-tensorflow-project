@@ -20,7 +20,8 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          git lfs install
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git remote add space https://hyshot:$HF_TOKEN@huggingface.co/spaces/hyshot/senior-lung-proj
-          git push space main --force
+          git push space HEAD:main --force
