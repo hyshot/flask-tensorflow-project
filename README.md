@@ -1,6 +1,6 @@
 ---
 title: Senior Lung Project
-sdk: Docker
+sdk: docker
 ---
 # Bitirme Projesi Makine Öğrenme
 
