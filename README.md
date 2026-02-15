@@ -10,6 +10,9 @@ pinned: false
 # senior-proj-atilim
 Bitirme Projesi Makine Öğrenme
 
+## Live Demo 🚀
+[Hugging Face Space üzerinde çalışan uygulamayı görüntülemek için tıklayın](https://huggingface.co/spaces/hyshot/senior-lung-proj)
+[def]: https://huggingface.co/spaces/hyshot/senior-lung-proj
 ## Plotting
 
 
@@ -17,3 +20,5 @@ Bitirme Projesi Makine Öğrenme
 
 
 ----
+
+
